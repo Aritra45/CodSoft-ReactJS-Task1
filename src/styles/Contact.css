@@ -1,0 +1,101 @@
+
+.contact {
+    display: flex;
+    justify-content: space-between; 
+    padding: 20px;
+    line-height: 1.1;
+  }
+  
+  .contact-info {
+    flex: 1; 
+    margin-right: 20px; 
+    padding-left: 30px;
+  }
+  
+  .contact-container {
+    flex: 1;
+    margin-right: 20%;
+  }
+  
+  .contact-form {
+    width: 100%; 
+    background-color: transparent;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+  }
+  
+  .contact-form h1,
+  .contact-form h2 {
+    text-align: left;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-control {
+    width: 95%;
+    padding: 10px;
+    font-size: 14px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  .btn-primary {
+    background-color: #f7ff01;
+    color: #000000;
+    border: none;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 30%; 
+    margin: 0 auto; 
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 30px;
+    font-weight: bold;
+  }
+  
+  .btn-primary:hover {
+    background-color: #b3a100;
+    transition: 0.5s;
+  }
+  .social-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .social-icons a {
+    margin-right: 10px; 
+  }
+  
+  .social-icons a svg {
+    font-size: 30px; 
+    color: yellow; 
+    transition: transform 0.2s ease-in-out; 
+  }
+  
+  .social-icons a:hover svg {
+    transform: scale(1.1); 
+  }
+  
+  .phone-number {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .phone-icon {
+    font-size: 20px; 
+    margin-right: 10px; 
+  }
+  
+  

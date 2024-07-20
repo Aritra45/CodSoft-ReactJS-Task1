@@ -1,0 +1,57 @@
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.header-left h1 {
+  margin: 0;
+}
+
+.header-right ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.header-right ul li {
+  margin: 0 15px;
+}
+
+.header-right ul li a {
+  position: relative;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease; 
+}
+
+.header-right ul li a::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: transparent;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+
+.header-right ul li.active a,
+.header-right ul li a:hover {
+  color: yellow; 
+}
+
+.header-right ul li.active a::before,
+.header-right ul li a:hover::before {
+  visibility: visible;
+  transform: scaleX(1);
+  background-color: yellow; 
+}
+.head{
+  color: yellow;
+}

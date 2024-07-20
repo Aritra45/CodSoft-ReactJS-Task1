@@ -1,0 +1,28 @@
+.project-card {
+    border: none;
+    background-color: transparent;
+    transition: transform 0.3s ease-in-out; 
+  
+    &:hover {
+      transform: scale(1.05); 
+    }
+  }
+  
+  .white-text {
+    color: white;
+  }
+  
+  .project-image {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .text-center {
+    text-align: center; 
+    font-size: 50px;
+  }
+  
+  .mb-4 {
+    margin-bottom: 1.5rem; 
+  }
+  
